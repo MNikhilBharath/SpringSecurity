@@ -33,7 +33,7 @@ public class HelloController {
 	
 	@RequestMapping("/hello")
 	public String sayHi() {
-		return "Hi everyone!";
+		return "Hi everyone! Welcome to this JAVA course";
 	}
 	@RequestMapping(value="/authenticate", method = RequestMethod.POST)
 	public ResponseEntity<?> createAuthenticationToken(@RequestBody AuthenticationRequest authenticationRequest ) throws Exception {
